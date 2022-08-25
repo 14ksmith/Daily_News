@@ -1,0 +1,4 @@
+http://feeds.bbci.co.uk/news/world/rss.xml
+https://news.ycombinator.com/rss
+https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+http://rss.cnn.com/rss/cnn_topstories.rss
