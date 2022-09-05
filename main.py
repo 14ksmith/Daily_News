@@ -42,7 +42,7 @@ def start_news_cycle(rss_settings, rss_links):
                 rss_scraping(settings=rss_settings, rss_links=rss_links)
                 has_sent_news_today = True
 
-            # if curent time is at or after target time
+            # if current time is at or after target time
             else:
                 print("Sending news!")
                 # send text/email with top five articles from urls in rss.txt
