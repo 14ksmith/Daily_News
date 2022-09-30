@@ -36,7 +36,9 @@ Below is an example of the settings.json file
 }
 ```
 
-Next, we will set up notifications. If using email, follow the instructions under the `Email Notifications` section. Similarly, if using text, follow the instructions under `Text Notifications`.
+Then, add the RSS feed addresses of your choice to `rss.txt` in the `settings` folder.
+
+Finally, set up notifications. If using email, follow the instructions under the `Email Notifications` section. Similarly, if using text, follow the instructions under `Text Notifications`.
 
 ### Email Notifications
 

@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 # return a list of links that you can get the news from
 def initialize_rss_links():
-    """Read in links from rss.txt, and return a string of articles and info"""
+    """Read in links from rss.txt, and return a list of rss urls."""
     rss_url_list = []
     with open("settings/rss.txt") as feeds:
         # read in the lines from rss.txt

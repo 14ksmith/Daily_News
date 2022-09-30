@@ -11,7 +11,7 @@ def rss_scraping(settings, rss_links):
         top_articles = ""
         try:
             response = requests.get(rss)
-            # Set 'soup' variable to scraping xml output
+            # Set 'soup' variable to scrape xml output
             soup = BeautifulSoup(response.content, features="xml")
             print("Request successful")
             # find all articles in scraping output
@@ -39,7 +39,9 @@ def rss_scraping(settings, rss_links):
                     server=settings.get("email_server"),
                 )
             else:
-                print("Invalid sending method, please choose either 'text' or 'email'.")
+                print(
+                    "Invalid sending method, please type either 'text' or 'email' for 'send_method' in 'settings.json'."
+                )
 
         # If scraping doesn't work, print the exception
         except Exception as exception:
