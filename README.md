@@ -23,7 +23,7 @@ Daily News is a Python application that reads RSS feeds at a specified time ever
 
 To set up Daily News, first install the necessary packages from `requirements.txt`. You can do this by running `pip3 install -r requirements.txt`.
 
-Next you will need to update the `settings.json` file with the following information. `send_time` specifies the time of day you want daily news to be sent to you. Make sure to use the 24-hour clock when designating your desired send time. `send_method` lets the program know to send the stories to you either via text or through email. `email_server` specifies the SMTP server to use if you are using email notifications. Finally, `num_articles` specifies how many articles to be sent from each outlet, every day.
+Next you will need to update the `settings.json` file with the following information. `send_time` specifies the time of day you want daily news to be sent to you. Make sure to use the 24-hour clock when designating your desired send time. `send_method` lets the program know to send the stories to you either via text or through email. Specify your choice by filling in either `text` or `email`. `email_server` specifies the SMTP server to use if you are using email notifications. Finally, `num_articles` specifies how many articles to be sent from each outlet, every day.
 
 Below is an example of the settings.json file
 
